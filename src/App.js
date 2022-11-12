@@ -7,7 +7,8 @@ import './App.css';
 // import HookCountTree from './components/HookCountTree';
 // import DataFechting from './components/DataFechting';
 // import DataFetching1 from './components/DataFetching1';
-import  DataFetching2 from './components/DataFetching2'
+// import  DataFetching2 from './components/DataFetching2'
+import ContexA from './components/ContexA'
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,8 @@ function App() {
  <HookCountFive/> */}
 {/* <DataFechting/> */}
 {/* <DataFetching1/> */}
-<DataFetching2 />
-
+{/* <DataFetching2 /> */}
+<ContexA/>
     </div>
   );
 }
